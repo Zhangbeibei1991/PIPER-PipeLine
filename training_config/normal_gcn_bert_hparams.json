@@ -1,0 +1,35 @@
+[
+  {
+    "type": "int",
+    "attributes": {
+      "name": "hidden_size",
+      "low": 512,
+      "high": 768
+    }
+  },
+  {
+    "type": "float",
+    "attributes": {
+      "name": "dropout_rate",
+      "low": 0.0,
+      "high": 0.6
+    }
+  },
+  {
+    "type": "float",
+    "attributes": {
+      "name": "normal_lr",
+      "low": 1e-5,
+      "high": 5e-5,
+      "log": true
+    }
+  },
+  {
+    "type": "int",
+    "attributes": {
+      "name": "gcn_num_layers",
+      "low": 2,
+      "high": 3
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "type": "float",
+    "attributes": {
+      "name": "dropout_rate",
+      "low": 0.0,
+      "high": 0.6
+    }
+  },
+  {
+    "type": "float",
+    "attributes": {
+      "name": "flip_lr",
+      "low": 5e-8,
+      "high": 5e-6,
+      "log": true
+    }
+  },
+  {
+    "type": "float",
+    "attributes": {
+      "name": "sym_loss_wt",
+      "low": 0.1,
+      "high": 1.0
+    }
+  }
+]
